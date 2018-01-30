@@ -1,8 +1,7 @@
 package com.dillon;
 
-/**
- * Created by mgreen14 on 12/26/17.
- */
+import java.io.*;
+
 public class FileInput {
 
     FileInputStream in = null;

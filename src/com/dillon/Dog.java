@@ -1,8 +1,5 @@
 package com.dillon;
 
-/**
- * Created by mgreen14 on 12/26/17.
- */
 public class Dog extends Pet implements Talkable {
     private boolean friendly;
 

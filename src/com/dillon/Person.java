@@ -1,8 +1,6 @@
 package com.dillon;
 
-/**
- * Created by mgreen14 on 12/26/17.
- */
+
 public abstract class Person {
     private String name;
 
