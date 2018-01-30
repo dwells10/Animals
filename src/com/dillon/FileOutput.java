@@ -1,10 +1,25 @@
 package com.dillon;
 
 
+/**
+ * @author Matt Green
+ *
+ * Ths class writes data to a file based on the filename given to the object.
+ */
+
 public class FileOutput {
+
+    /**
+     * initilizes the value out out to null
+     */
 
     FileOutputStream out = null;
 
+
+    /**
+     *
+     * @param fileName hold the filename to be written to
+     */
 
     public FileOutput(String fileName) {
         try {
@@ -21,6 +36,11 @@ public class FileOutput {
 
     }
 
+    /**
+     *
+     * @param line writes line to file
+     */
+
     public void fileWrite(String line) {
         try {
             out.write(line);
@@ -34,6 +54,10 @@ public class FileOutput {
             }
         }
     }
+
+    /**
+     *  Closes the file
+     */
 
     public void fileClose() {
         if (out != null) {
