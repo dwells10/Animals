@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 public class CatTest {
 
-    Cat tiny = new Cat(5,);
+    Cat tiny = new Cat(5,tiny);
 
     @org.junit.Test
     public void getMousesKilled() {
